@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: test_1
+
+
+server:
+  port: 8081
